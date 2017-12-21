@@ -20,7 +20,7 @@ void Rhomb::print() const
 
 double Rhomb::area() const
 {
-	return m_sideA * small_ang;
+	return m_sideA * m_sideA * sin(small_ang * (PI/180));
 }
 
 Rhomb& Rhomb::operator = (const Rhomb& other)
