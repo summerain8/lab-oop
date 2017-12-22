@@ -56,7 +56,7 @@ void Rhomb::operator delete (void* p)
 std::ostream& operator << (std::ostream& os, const Rhomb& rectangle)
 {
 	os << "================" << std::endl;
-	os << "Figure type: rectangle" << std::endl;
+	os << "Figure type: rhomb" << std::endl;
 	os << "Side A size: " << rectangle.m_sideA << std::endl;
 	os << "Smaller angle: " << rectangle.small_ang << std::endl;
 
